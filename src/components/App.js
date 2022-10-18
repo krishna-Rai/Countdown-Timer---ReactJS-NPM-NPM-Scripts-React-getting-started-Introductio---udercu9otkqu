@@ -14,7 +14,7 @@ const App = () => {
         clearTimeout(timerId)
       }
       if(!isNaN(val)){
-        if(val>0)
+        if(val>=0)
           setTimeLeft(parseInt(val))
       }else{
         setTimeLeft(0)
